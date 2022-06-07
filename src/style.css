@@ -21,6 +21,7 @@
 .sideBar a{
     text-decoration: none;
     color: #ecb3657a;
+    transition: background-color .2s ease, color .2s ease;
 }
 .sideBar .active{
     color:#ECB365;
@@ -47,6 +48,8 @@
 }
 
 .visitors{
+    display: flex;
+    flex-direction: column;
     background-color: #04293A;
     color: #ECB365;
     grid-column: 2/5;
@@ -57,4 +60,13 @@
 }
 .visitors h2{
     margin-left: 2em;
+}
+.visits{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+#visitorsVisual img{
+    margin-top: 3em;
+    width: 60vw;
 }
