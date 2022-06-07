@@ -7,7 +7,7 @@
     min-height: 60vh;
 }
 
-#sideBar{
+.sideBar{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,9 +17,23 @@
     grid-column: 1/2;
     grid-row: 1/4;
 }
-#sideBar a{
+
+.sideBar a{
     text-decoration: none;
-    color: #ECB365;
+    color: #ecb3657a;
+}
+.sideBar .active{
+    color:#ECB365;
+}
+.sideBar a i{
+    margin-right: .5em;
+}
+.sideBar a:hover{
+    background-color: #04293A;
+    color:#ECB365;
+    border-radius: 10px;
+    height: 30px;
+    padding-top: 10px;
 }
 .analysis{
     display:flex;

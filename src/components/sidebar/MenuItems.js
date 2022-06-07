@@ -1,6 +1,6 @@
-const MenuItems = (prop) =>{
+const MenuItems = ({ item, icon, active}) =>{
   return (
-      <a href="#">{prop.item}</a>
+    <a className={active} href="#">{icon}{item}</a>
   )
 }
 
